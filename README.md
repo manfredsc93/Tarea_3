@@ -1,20 +1,10 @@
-# Tarea 2. Breve análisis de datos Covid en Costa Rica
 
-En este repositorio se presenta el breve análisis de los datos Covid en Costa Rica desde marzo 2020 a mayo 2022.
+# "Tarea 3: Procesamiento de datos geoespaciales"
+## Autoría: "Manfred Salas y Julieta López"
 
-Se utilizaron los datos proporcionados por el Ministerio de Salud que se encuentran disponibles en <https://oges.ministeriodesalud.go.cr/>, en particular las bases utilizadas fueron:
+## Introducción
 
--   Cantidades diarias de casos a nivel nacional disponibles en [05_30_22_CSV_GENERAL.xlsx](https://oges.ministeriodesalud.go.cr/archivos_covid/2022_05_30/05_30_22_EXCEL_GENERAL.xlsx)
--   Cantidades de casos por cantón disponibles en [05_30_22_CSV_POSITIVOS.csv](https://oges.ministeriodesalud.go.cr/archivos_covid/2022_05_30/05_30_22_CSV_POSITIVOS.csv)
+En el siguiente documento se presenta un breve análisis de la distribución de las diferentes especies de felinos que se encuentran en Costa Rica, los datos utilizados para este trabajo pueden ser encontrados en el [Registros de presencia de felinos de Costa Rica, agrupados por la Infraestructura Mundial de Información en Biodiversidad (GBIF)](https://doi.org/10.15468/dl.dwpgps), además de la capa oficial de [Áreas silvestres protegidas (ASP) de Costa Rica, publicadas por el Sistema Nacional de Áreas de Conservación (Sinac) en el Sistema Nacional de Información Territorial (SNIT)](https://www.snitcr.go.cr/ico_servicios_ogc_info?k=bm9kbzo6NDA=&nombre=SINAC) y una capa raster de [WorldClim](https://www.worldclim.org/) de altitud de Costa Rica (resolución de 30 x 30 segundos, disponible para descarga directa [aquí](https://github.com/pf0953-programacionr/2022-ii/blob/main/datos/worldclim/altitud.tif)).
+Con la información anterior se logra identificar que la mayoría de los avistamientos se dan durante los meses de de diciembre a marzo y una mayor incidencia de las especies "Leopardus pardalis y Puma concolor". La  distribución espacial de felinos se concentra en las cercanías Parque Nacional Corcovado, Parque Nacional Tortuguero, PArque Nacional Santa Rosa, Parque Nacional Arenal y Zona Protectora Arenal-Monteverde en altitudes entre de 0 hasta apriximadamente los 2000 msnm.
 
-El análisis se enfoca en la visualización de datos temporalmente, por sexo y por grupos edad. Los gráficos que fueron generados utilizando el lenguaje de programación de R y el paquete de `tidyverse`. Para los gráficos y tablas dinámicas se usaron los paquetes de `plotly` y `DT`.
-
-En este repositorio se puede encontrar:
-
--   Datos de para trabajar disponibles en <https://github.com/julietalopher/Tarea_2/tree/main/datos>
--   Archivo HTML de este proyecto en <https://github.com/julietalopher/Tarea_2/blob/main/index.html>
--   Archivo base de Quarto disponible en <https://github.com/julietalopher/Tarea_2/blob/main/index.qmd>
--   Archivo del proyecto de R <https://github.com/julietalopher/Tarea_2/blob/main/Tarea_2.Rproj>
--   El presente documento READM.md
-
-Este proyecto está disponible en linea a través de la página de GitHub Pages <https://julietalopher.github.io/Tarea_2/>.
+Para mayor detalle puede consultar el sitio:
